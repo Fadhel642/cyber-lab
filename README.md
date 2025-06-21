@@ -23,4 +23,4 @@ Ce dépôt va évoluer au fil de mon apprentissage.
 
 > Ce projet est surtout là pour moi-même.  
 > Si tu tombes dessus et que ça t’aide ou t’intéresse, tant mieux !
-> Et si tu veux me laisser un retour ou un conseil, c’est toujours bienvenu !
+et si tu veux me laisser un retour ou un conseil, c’est toujours bienvenu !
