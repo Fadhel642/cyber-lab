@@ -14,6 +14,16 @@ Je fais ça à mon rythme, pour pratiquer et garder une trace de ce que j'appren
 
 ---
 
+## Organisation
+
+- `linux/` → mes notes et tests de commandes
+- `bash/` → scripts que j’écris et que je teste
+- `reseau/` → les notions réseau que je découvre
+- `exercices/` → des petits défis que je me donne
+- `projets/` → des idées que je mets en pratique
+
+---
+
 ## En cours !!!
 
 J’ajoute les choses petit à petit, quand j’ai le temps.  
