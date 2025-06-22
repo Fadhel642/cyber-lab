@@ -1,10 +1,10 @@
 # Commandes Linux utiles
 
 ## ls
-Liste les fichiers dans un dossier.
+Liste les fichiers dans un dossier.  
 ## ls -l
-Liste détaillée des fichiers
-`ls` = liste les fichiers
+Liste détaillée des fichiers  
+`ls` = liste les fichiers  
 `-l` (long) = il affiche les fichiers avec plus d’informations :
 
 ## pwd 
