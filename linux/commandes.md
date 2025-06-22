@@ -9,7 +9,17 @@ Liste détaillée des fichiers
 
 **Exemple**  
 
-![image](https://github.com/user-attachments/assets/b6473c5d-afed-4cac-b2ce-f7edab82cf16)
+![image](https://github.com/user-attachments/assets/b6473c5d-afed-4cac-b2ce-f7edab82cf16)  
+
+### Décryptage de la sortie  
+| Élément | Description |
+|--------|-------------|
+| `drwxr-xr-x` | Type et permissions |
+| `1` | Nombre de liens |
+| `1224RASP52+crif` | Nom de Propriétaire |
+| `197121` | Groupe |
+| `Oct 24 2024` | Date de dernière modification |
+| `AppData/` | Nom du dossier |
 
 
 ## pwd 
