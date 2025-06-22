@@ -1,9 +1,9 @@
 # Commandes Linux utiles
 
-## ls (list)
+## `ls` (list)
 Cette commande permet de lister les fichiers et dossiers dans le répertoire courant  
 
-## ls -l
+## `ls -l`
 Liste détaillée des fichiers  
 `ls` = liste les fichiers  
 `-l` (long) = il affiche les fichiers avec plus d’informations :  
@@ -35,7 +35,7 @@ Liste détaillée des fichiers
 
 ---
 
-## cd (change directory)
+## `cd` (change directory)
 Cette commande permet de naviguer entre les dossiers dans le système de fichiers.
 
 **Exemple** : ( utilisation de `cd` pour aller dans le dossier `Music`, puis vérification avec `pwd`)  
@@ -55,11 +55,15 @@ Cette commande permet de naviguer entre les dossiers dans le système de fichier
 
 ---
 
-## pwd 
+## `pwd` ((print working directory) 
 Affiche le chemin du dossier actuel.  
 Permet de savoir où on se trouve.
 
-## chmod
+---
+
+## `mkdir` (make directory)
+
+## `chmod`
 Permet de modifier les permissions d’un fichier.
 
 ...
