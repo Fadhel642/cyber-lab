@@ -28,4 +28,10 @@ Renommer et déplacer un dossier dans un autre dossier à l’aide de la command
 
   ![image](https://github.com/user-attachments/assets/3cec85b6-49f6-46a3-81fd-514d9ea68e60)
 
+2) Ensuite, j’entre un fichier vide dedans avec la commande `touch`, et je le nomme `note.txt`.
+    
+   ![image](https://github.com/user-attachments/assets/b7ac26bc-c1f6-405d-b566-4a37ab2c95f5)  
+   Et je fais un petit `ls test` pour voir si `note.txt` est bien créé dedans.  
+   ![image](https://github.com/user-attachments/assets/e583c436-4398-47a3-b92f-2e9c8bd3fe71)
+
 
