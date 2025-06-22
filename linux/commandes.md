@@ -1,7 +1,7 @@
 # Commandes Linux utiles
 
-## ls
-Liste les fichiers dans un dossier.  
+## ls (list)
+Cette commande permet de lister les fichiers et dossiers dans le répertoire courant  
 
 ## ls -l
 Liste détaillée des fichiers  
