@@ -23,3 +23,9 @@ Renommer et déplacer un dossier dans un autre dossier à l’aide de la command
 # Ma solution : 
 
 > **Attention** : cette solution peut contenir des erreurs, car je la rédige moi-même ( en apprentissage ).
+
+1) D'abord je crée un dossier que j’appelle `test` avec la commande `mkdir`
+
+  ![image](https://github.com/user-attachments/assets/3cec85b6-49f6-46a3-81fd-514d9ea68e60)
+
+
