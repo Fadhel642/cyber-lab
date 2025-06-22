@@ -53,7 +53,9 @@ Renommer et déplacer un dossier dans un autre dossier à l’aide de la command
 
 ---
 # Remarque
+
 J’ai vu que si je ne suis pas dans le bon dossier, ça fait une erreur de ce genre:  
+
 ![image](https://github.com/user-attachments/assets/ea2f1821-5f4a-4314-aad2-ed648bcf66c0)
 
 
