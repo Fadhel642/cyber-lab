@@ -28,7 +28,7 @@ Liste détaillée des fichiers
 ## cd (change directory)
 Cette commande permet de naviguer entre les dossiers dans le système de fichiers.
 
-**Exemple**: ( utilisation de `cd` pour aller dans le dossier `Music`, puis vérification avec `pwd`)  
+**Exemple** : ( utilisation de `cd` pour aller dans le dossier `Music`, puis vérification avec `pwd`)  
 
 ![image](https://github.com/user-attachments/assets/c626b838-e181-4ca8-8e3a-f26570744b0c)
 
