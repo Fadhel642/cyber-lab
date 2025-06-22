@@ -4,7 +4,7 @@
 Liste les fichiers dans un dossier.
 
 ## pwd 
-Affiche le chemin du dossier actuel.
+Affiche le chemin du dossier actuel.  
 Permet de savoir où on se trouve 
 
 ## chmod
