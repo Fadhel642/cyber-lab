@@ -23,6 +23,16 @@ Liste détaillée des fichiers
 | `Oct 24 2024` | Date de dernière modification |
 | `AppData/` | Nom du dossier |
 
+****Autres exemples utiles :****  
+
+| Commande     | Explication                                                 |
+| ------------ | ----------------------------------------------------------- |
+| `ls -a`      | Affiche tous les fichiers, y compris les fichiers cachés    |
+| `ls -lh`     | Affiche les tailles dans un format lisible (Ko, Mo...)      |
+| `ls -la`     | Combine `-l` et `-a` pour un affichage détaillé complet     |
+| `ls /chemin` | Liste le contenu d’un autre dossier                         |
+
+
 ---
 
 ## cd (change directory)
