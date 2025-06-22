@@ -8,6 +8,7 @@ Liste détaillée des fichiers
 `-l` (long) = il affiche les fichiers avec plus d’informations :  
 
 **Exemple**  
+
 ![image](https://github.com/user-attachments/assets/b6473c5d-afed-4cac-b2ce-f7edab82cf16)
 
 
