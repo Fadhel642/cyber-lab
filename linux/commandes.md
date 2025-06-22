@@ -68,10 +68,25 @@ Cette commande permet tout simplement de créer un ou plusieurs dossiers
 **Exemple** : ( utilisation de `mkdir` pour céer un dossier nommé `test`  
 
 ![image](https://github.com/user-attachments/assets/1a395f8a-fdd4-49f6-97fb-589b0457d2eb)
-
+  
+  
 Le dossier test apparaît bien dans le dossier Musique, comme visible ci-dessous :  
 
-![image](https://github.com/user-attachments/assets/b169c52f-03af-4197-ae87-c3b0d4c16c31)
+![image](https://github.com/user-attachments/assets/b169c52f-03af-4197-ae87-c3b0d4c16c31)  
+
+
+****Autres exemples utiles :****  
+
+| Commande                     | Explication                                               |
+| ---------------------------- | --------------------------------------------------------- |
+| `mkdir test1 test2`          | Crée plusieurs dossiers en une seule commande             |
+| `mkdir -p dossier1/dossier2` | Crée une arborescence (et les dossiers parents si besoin) |
+
+----
+
+## `mv` (move)
+
+Cette commande permet de **déplacer** ou **renommer** des fichiers et des dossiers.
 
 
 
