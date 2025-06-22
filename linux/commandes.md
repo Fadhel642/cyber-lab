@@ -17,7 +17,8 @@ Liste détaillée des fichiers
 | `drwxr-xr-x` | Type et permissions |
 | `1` | Nombre de liens |
 | `1224RASP52+crif` | Nom de Propriétaire |
-| `197121` | Groupe |
+| `197121` | Groupe |  
+| `0` | Taille (en octets) |  
 | `Oct 24 2024` | Date de dernière modification |
 | `AppData/` | Nom du dossier |
 
