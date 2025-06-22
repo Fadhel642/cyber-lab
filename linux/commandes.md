@@ -5,7 +5,9 @@ Liste les fichiers dans un dossier.
 ## ls -l
 Liste détaillée des fichiers  
 `ls` = liste les fichiers  
-`-l` (long) = il affiche les fichiers avec plus d’informations :
+`-l` (long) = il affiche les fichiers avec plus d’informations :  
+![image](https://github.com/user-attachments/assets/b6473c5d-afed-4cac-b2ce-f7edab82cf16)
+
 
 ## pwd 
 Affiche le chemin du dossier actuel.  
