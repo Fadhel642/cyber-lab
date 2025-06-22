@@ -1,4 +1,5 @@
 # Exercice : Utilisation de la commande `mv`
+
 ## Objectif
 Renommer et déplacer un dossier dans un autre dossier à l’aide de la commande `mv`.  
 
@@ -18,3 +19,7 @@ Renommer et déplacer un dossier dans un autre dossier à l’aide de la command
 - Le fichier `note.txt` a été renommé en `rapport.txt` à l’intérieur
 
 ---
+
+# Ma solution : 
+
+> **Attention** : cette solution peut contenir des erreurs, car je la rédige moi-même ( en apprentissage ).
