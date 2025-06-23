@@ -187,6 +187,34 @@ Elle est très utilisée pour télécharger des fichiers, tester des API, ou env
 
 ---
 
+## `ping` (packet internet groper)
+
+Cette commande permet de tester la connexion entre ton ordinateur et une autre machine (souvent un serveur ou un site web).  
+Elle envoie des paquets (ICMP) et mesure le temps de réponse.
+
+**Exemple :**
+```ping google.com```  
+Envoie des paquets vers Google et affiche les réponses reçues + le temps en millisecondes  
+
+![image](https://github.com/user-attachments/assets/eb34150b-4da7-4579-b748-45178d16347c)
+
+time=!! ms = temps que met le paquet à faire l’aller-retour  
+S'il y a des pertes, cela indique une connexion instable ou rompue
+
+****Utilisations utiles :****
+
+| Cas d’usage                   | Exemple                                     |
+| ----------------------------- | ------------------------------------------- |
+| Tester une URL                | `ping example.com`                          |
+| Tester une IP spécifique      | `ping 8.8.8.8`                              |
+| Vérifier la latence réseau    | Lire les valeurs `time=...`                 |
+| Vérifier si un serveur répond | S’il ne répond pas, aucun paquet ne revient |
+
+
+---
+
+
+
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
 
