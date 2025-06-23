@@ -164,8 +164,28 @@ Par défaut, elle affiche les 10 dernières lignes.
 
 ## `wget` (web get)
 
-Cette commande permet de **télécharger un fichier depuis Internet**, directement depuis le terminal, sans navigateur.
+Cette commande permet de **télécharger un fichier depuis Internet**, directement depuis le terminal, sans navigateur.  
+Elle est équivalente à la commande `curl -O`
 
+---
+
+## `curl` (client URL)
+
+Cette commande permet de récupérer ou envoyer des données via HTTP, HTTPS, FTP, etc.  
+Elle est très utilisée pour télécharger des fichiers, tester des API, ou envoyer des requêtes web.
+
+****Autres options utiles :****
+
+| Option    | Description                                            |
+| --------- | ------------------------------------------------------ |
+| `-O`      | Garde le nom de fichier distant                        |
+| `-o nom`  | Spécifie un nom local pour le fichier                  |
+| `-L`      | Suit les redirections (important pour les vraies URLs) |
+| `-I`      | N'affiche que les en-têtes HTTP                        |
+| `-X POST` | Envoie une requête POST                                |
+| `-d`      | Envoie des données (utile avec POST/PUT)               |
+
+---
 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
