@@ -229,6 +229,25 @@ S'il y a des pertes, cela indique une connexion instable ou rompue
 
 ---
 
+## `grep` (global regular expression print)
+
+Cette commande permet de rechercher un texte spécifique dans un ou plusieurs fichiers, ou dans une sortie de commande.  
+
+C’est un peu le **Ctrl + F** du terminal, mais en beaucoup plus puissant.  
+
+```
+grep [options] "mot_à_chercher" fichier
+```
+**Options :**
+
+| Option         | Description                           |
+| -------------- | ------------------------------------- |
+| `-i`           | Ignore la casse                       |
+| `-n`           | Affiche le numéro de ligne            |
+| `-r`           | Recherche récursive dans les dossiers |
+| `--color=auto` | Met le texte trouvé en couleur        |
+
+---
 
 
 ## `chmod`
