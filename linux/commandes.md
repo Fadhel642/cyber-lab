@@ -104,7 +104,7 @@ Cette commande permet de nettoyer l’écran du terminal. Elle efface tout le co
 
 ---
 
-## cp (copy)
+## `cp` (copy)
 
 Cette commande permet de copier des fichiers ou des dossiers d’un emplacement vers un autre.  
 Elle peut être utiliser comme un **sauvegarde**  
@@ -117,6 +117,25 @@ Elle peut être utiliser comme un **sauvegarde**
 | `-i`   | Demande confirmation avant d’écraser un fichier |
 | `-v`   | Affiche chaque fichier copié ("verbose")        |
 
+---
+
+## `touch` (update timestamp / create empty file)
+
+Cette commande sert à créer un **fichier vide** ou à **mettre à jour la date** de modification d’un fichier existant.
+
+---
+
+## `cat` (concatenate)
+
+Cette commande permet de **lire**, **afficher**, **fusionner** ou **créer** des fichiers texte directement depuis le terminal.  
+petite **remarque** : lorsqu'on crée un fichier texte exemple :  `cat > nouveau.txt` il te laisse écrire et Quand tu as fini, tu fais Ctrl + D pour enregistrer.
+
+---
+
+## `head` (show beginning)
+
+Cette commande permet d’afficher les premières lignes d’un fichier texte.
+Par défaut, elle montre les 10 premières lignes.
 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
