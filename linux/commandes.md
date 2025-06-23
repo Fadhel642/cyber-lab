@@ -86,8 +86,36 @@ Le dossier test apparaît bien dans le dossier Musique, comme visible ci-dessous
 
 ## `mv` (move)
 
-Cette commande permet de **déplacer** ou **renommer** des fichiers et des dossiers.
+Cette commande permet de **déplacer** ou **renommer** des fichiers et des dossiers.  
 
+| Commande                         | Explication                                       |
+| -------------------------------- | ------------------------------------------------- |
+| `mv fichier.txt dossier/`        | Déplace un fichier dans un dossier                |
+| `mv dossier1/ dossier2/`         | Déplace un dossier dans un autre                  |
+| `mv fichier.txt nouveau_nom.txt` | Renomme le fichier                                |
+| `mv -i fichier.txt dossier/`     | Affiche un message si un fichier doit être écrasé |
+| `mv *.txt Archives/`             | Déplace tous les fichiers `.txt` vers `Archives`  |
+
+---
+
+## `clear` (clear screen)
+
+Cette commande permet de nettoyer l’écran du terminal. Elle efface tout le contenu affiché à l'écran, **sans supprimer** les données ou les fichiers.
+
+---
+
+## cp (copy)
+
+Cette commande permet de copier des fichiers ou des dossiers d’un emplacement vers un autre.  
+Elle peut être utiliser comme un **sauvegarde**  
+
+****Options utiles****
+
+| Option | Description                                     |
+| ------ | ----------------------------------------------- |
+| `-r`   | Copie un dossier **et son contenu**             |
+| `-i`   | Demande confirmation avant d’écraser un fichier |
+| `-v`   | Affiche chaque fichier copié ("verbose")        |
 
 
 ## `chmod`
