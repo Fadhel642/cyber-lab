@@ -137,6 +137,15 @@ petite **remarque** : lorsqu'on crée un fichier texte exemple :  `cat > nouveau
 Cette commande permet d’afficher les premières lignes d’un fichier texte.
 Par défaut, elle montre les 10 premières lignes.
 
+****Autres options utiles :****
+
+| Option | Description                                          |
+| ------ | ---------------------------------------------------- |
+| `-n N` | Affiche les **N premières lignes**                   |
+| `-q`   | N’affiche **pas le nom des fichiers** (si plusieurs) |
+| `-v`   | Affiche **toujours** le nom du fichier               |
+
+
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
 
