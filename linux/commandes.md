@@ -160,6 +160,12 @@ Par défaut, elle affiche les 10 dernières lignes.
 | `-f`   | Suit le fichier en **temps réel**  |
 | `-q`   | Masque le nom du fichier           |
 
+---
+
+## `wget` (web get)
+
+Cette commande permet de **télécharger un fichier depuis Internet**, directement depuis le terminal, sans navigateur.
+
 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
