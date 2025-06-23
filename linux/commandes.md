@@ -145,6 +145,21 @@ Par défaut, elle montre les 10 premières lignes.
 | `-q`   | N’affiche **pas le nom des fichiers** (si plusieurs) |
 | `-v`   | Affiche **toujours** le nom du fichier               |
 
+---
+
+## `tail` (show end)
+
+Cette commande permet d’afficher les dernières lignes d’un fichier texte.
+Par défaut, elle affiche les 10 dernières lignes.
+
+****Autres options utiles :****
+
+| Option | Description                        |
+| ------ | ---------------------------------- |
+| `-n N` | Affiche les **N dernières lignes** |
+| `-f`   | Suit le fichier en **temps réel**  |
+| `-q`   | Masque le nom du fichier           |
+
 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
