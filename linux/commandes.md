@@ -119,6 +119,22 @@ Elle peut être utiliser comme un **sauvegarde**
 
 ---
 
+## `rm` (remove)
+
+Cette commande permet de supprimer des fichiers ou des dossiers depuis le terminal.  
+> ATTENTION : les fichiers supprimés avec `rm` ne vont pas dans la corbeille. **C’est irréversible**.
+
+****Options utiles :****
+
+| Option | Description                                        |
+| ------ | -------------------------------------------------- |
+| `-r`   | Supprime un dossier et son contenu (récursif)      |
+| `-f`   | Forcer la suppression, sans erreur ni confirmation |
+| `-i`   | Demande confirmation avant suppression             |
+| `-rf`  | Forcer la suppression sans message                 |
+
+---
+
 ## `touch` (update timestamp / create empty file)
 
 Cette commande sert à créer un **fichier vide** ou à **mettre à jour la date** de modification d’un fichier existant.
