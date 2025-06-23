@@ -109,7 +109,7 @@ Cette commande permet de nettoyer l’écran du terminal. Elle efface tout le co
 Cette commande permet de copier des fichiers ou des dossiers d’un emplacement vers un autre.  
 Elle peut être utiliser comme un **sauvegarde**  
 
-****Options utiles****
+****Options utiles :****
 
 | Option | Description                                     |
 | ------ | ----------------------------------------------- |
