@@ -249,6 +249,20 @@ grep [options] "mot_à_chercher" fichier
 
 ---
 
+## `wc` (word count)
+
+Cette commande permet de compter le nombre de lignes, de mots et de caractères dans un ou plusieurs fichiers.  
+
+**Options utiles :**
+
+| Option | Description                       |
+| ------ | --------------------------------- |
+| `-l`   | Compte les lignes                 |
+| `-w`   | Compte les mots                   |
+| `-c`   | Compte les octets (taille brute)  |
+| `-m`   | Compte les **caractères** (UTF-8) |
+
+---
 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
