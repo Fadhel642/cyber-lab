@@ -7,7 +7,12 @@
 ### Manipulation de fichiers
 - [ls (list)](#ls-list)  
 - [cd (change directory)](#cd-change-directory)
--  
+- [pwd (print working directory)](#pwd-print-working-directory)
+- [mkdir (make directory)](#mkdir-make-directory)
+- [mv (move)](#mv-move)
+- [cp (copy)](#cp-copy)
+- [rm (remove)](#rm-remove)
+- [touch (update timestamp / create empty file)](#touch-update-timestamp--create-empty-file)
 
 --- 
 
