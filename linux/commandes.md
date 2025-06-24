@@ -267,4 +267,19 @@ Cette commande permet de compter le nombre de lignes, de mots et de caractères 
 ## `chmod`
 Permet de modifier les permissions d’un fichier.
 
+---
+
+## `history` (command history)
+
+Cette commande affiche la liste des commandes précédemment exécutées dans le terminal.
+
+**Options utiles :**
+
+| Option | Description                        |
+| ------ | ---------------------------------- |
+| `-c`   | Efface l’historique                |
+| `!n`   | Exécute la commande numéro `n`     |
+| `!!`   | Réexécute **la dernière commande** |
+
+
 ...
