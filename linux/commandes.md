@@ -1,5 +1,6 @@
 # Commandes Linux utiles
-
+- [ls (list)](#ls-list)  
+- [cd (change directory)](#cd-change-directory)
 ## `ls` (list)
 Cette commande permet de lister les fichiers et dossiers dans le répertoire courant  
 
