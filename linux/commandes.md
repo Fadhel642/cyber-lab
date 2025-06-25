@@ -14,6 +14,8 @@
 - [rm (remove)](#rm-remove)
 - [touch (update timestamp / create empty file)](#touch-update-timestamp--create-empty-file)
 
+### Lecture et traitement de fichiers
+- [cat (concatenate)](#cat-concatenate)
 --- 
 
 ## `ls` (list)
