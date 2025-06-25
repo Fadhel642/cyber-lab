@@ -38,9 +38,26 @@
 
 - [ping](#ping-packet-internet-groper)  
 - [wget](#wget-web-get)  
-- [curl](#curl-client-url)  
+- [curl](#curl-client-url)
+- netstat / ss !!!!
 
+### 🔹Recherche et exploration
 
+- [find](#
+- [locate](#
+- [lsof](#
+
+### 🔹Archivage / Compression
+
+- [tar](#
+- gzip / gunzip
+
+### 🔹Historique et automatisation
+
+- [history](#history-command-history)
+- alias
+- watch
+  
 --- 
 
 ## `ls` (list)
