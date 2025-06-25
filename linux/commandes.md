@@ -36,9 +36,9 @@
 
 ### 🔹Réseau
 
--[ping](#ping-packet-internet-groper)
--[wget](#wget-web-get)
--[curl](#curl-client-url)
+-[ping](#ping-packet-internet-groper)  
+-[wget](#wget-web-get)  
+-[curl](#curl-client-url)  
 
 
 --- 
