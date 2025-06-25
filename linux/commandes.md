@@ -17,6 +17,13 @@
 ### 🔹Lecture et traitement de fichiers
 - [cat](#cat-concatenate)
 - [head](#head-show-beginning)
+- [tail](#tail-show-end)
+- [wc](#wc-word-count)
+- [grep](#grep-global-regular-expression-print)
+
+### 🔹Droits et permissions
+
+- [chmod](#
 --- 
 
 ## `ls` (list)
