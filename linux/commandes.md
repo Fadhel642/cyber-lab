@@ -4,7 +4,7 @@
 
 ## Sommaire :
 
-### Manipulation de fichiers
+### 🔹Manipulation de fichiers
 - [ls (list)](#ls-list)  
 - [cd (change directory)](#cd-change-directory)
 - [pwd (print working directory)](#pwd-print-working-directory)
@@ -14,8 +14,9 @@
 - [rm (remove)](#rm-remove)
 - [touch (update timestamp / create empty file)](#touch-update-timestamp--create-empty-file)
 
-### Lecture et traitement de fichiers
+### 🔹Lecture et traitement de fichiers
 - [cat (concatenate)](#cat-concatenate)
+- [head (show beginning)](#head-show-beginning)
 --- 
 
 ## `ls` (list)
