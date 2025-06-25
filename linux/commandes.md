@@ -24,6 +24,23 @@
 ### 🔹Droits et permissions
 
 - [chmod](#
+- [chown](#
+- [umask](#
+
+### 🔹Surveillance système et processus
+
+-[](#
+-[](#
+-[](#
+-[](#
+
+### 🔹Réseau
+
+-[ping](#ping-packet-internet-groper)
+-[wget](#wget-web-get)
+-[curl](#curl-client-url)
+
+
 --- 
 
 ## `ls` (list)
