@@ -28,7 +28,7 @@
 
 ### 🔹Droits et permissions
 
-- [chmod](#
+- [chmod](#chmod-change-mode)
 - [chown](#
 - [umask](#
 
@@ -331,6 +331,8 @@ Cette commande permet de compter le nombre de lignes, de mots et de caractères 
 
 ## `chmod` (change mode)
 Cette commande permet de modifier les permissions d’un fichier.
+pas encore fini !!!
+
 
 ---
 
