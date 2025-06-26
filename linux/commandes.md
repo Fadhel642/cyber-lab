@@ -1,5 +1,9 @@
 # Commandes Linux utiles
+---
 
+> **Note perso**Je sais qu’il existe plein de sites et docs avec toutes les commandes Linux, et que je pourrais juste aller chercher sur Google… mais j’ai choisi de faire ce document moi-même. Pourquoi ? Parce que ça m’aide à mieux comprendre, à m’en souvenir, et à me sentir plus à l’aise avec ces commandes.
+
+Je suis encore en plein apprentissage, donc ce fichier n’est pas terminé. Je le complète petit à petit, à mon rythme. Et même si ce n’est pas parfait, ça me permet de progresser. Bref, ce doc, c’est un peu mon carnet de bord Linux
 ---
 
 ## Sommaire :
@@ -324,8 +328,8 @@ Cette commande permet de compter le nombre de lignes, de mots et de caractères 
 
 ---
 
-## `chmod`
-Permet de modifier les permissions d’un fichier.
+## `chmod` (change mode)
+Cette commande permet de modifier les permissions d’un fichier.
 
 ---
 
