@@ -1,4 +1,4 @@
-# Commandes Linux utiles
+# Commandes Linux
 ---
 
 > **Note perso** : Je sais qu’il existe plein de sites et docs avec toutes les commandes Linux, et que je pourrais juste aller chercher sur Google… mais j’ai choisi de faire ce document moi-même. Pourquoi ? Parce que ça m’aide à mieux comprendre, à m’en souvenir, et à me sentir plus à l’aise avec ces commandes.
