@@ -45,6 +45,9 @@
 - [wget](#wget-web-get)  
 - [curl](#curl-client-url)
 - [netstat](#netstat-network-statistics)
+- [nslookup](#nslookup-Name-Server-Lookup)
+- [host](#host)
+- [whois](#whois)
 
 ### 🔹Recherche et exploration
 
