@@ -44,7 +44,7 @@
 - [ping](#ping-packet-internet-groper)  
 - [wget](#wget-web-get)  
 - [curl](#curl-client-url)
-- netstat / ss !!!!
+- [netstat](#netstat-network-statistics)
 
 ### 🔹Recherche et exploration
 
@@ -293,14 +293,63 @@ S'il y a des pertes, cela indique une connexion instable ou rompue
 
 ---
 
+## `netstat` (network statistics)
+
+Cette commande affiche des informations sur les connexions réseau, les ports ouverts, et les statistiques du protocole réseau (TCP, UDP…).
+
+****Utilisations utiles :****
+
+| Objectif                                | Commande         | Description                                    |
+| --------------------------------------- | ---------------- | ---------------------------------------------- |
+| Voir toutes les connexions TCP          | `netstat -at`    | Affiche uniquement les connexions TCP          |
+| Voir tous les ports en écoute           | `netstat -l`     | Montre les services en attente de connexion    |
+| Voir avec les numéros de port           | `netstat -n`     | Affiche les IP/ports sans résolution DNS       |
+| Voir les programmes liés aux connexions | `netstat -tulpn` | (Linux) Affiche les processus + ports utilisés |
+
+---
+
 ## `nslookup` (Name Server Lookup)
 
-Cette commande permet d’interroger le DNS pour obtenir des informations sur un nom de domaine ou une adresse IP.
+Cette commande permet d’interroger le DNS pour obtenir des informations sur un nom de domaine ou une adresse IP.  
 Très utile pour vérifier la résolution DNS d’un domaine.
 
 > **DNS** (Domain Name System) : C’est un service d’annuaire d’Internet, il fait la traduction entre un ***nom de domaine*** et une ***adresse IP***.
 
 ---
+
+## `host`
+
+Cette commande permet d’interroger le DNS pour obtenir des informations sur un ***nom de domaine***, comme son adresse IP, ses serveurs mail, etc.
+
+Elle est ***plus simple et rapide*** que `nslookup`.
+
+****Autres usages :****
+
+| Cas d’usage                              | Commande                   | Description                                      |
+| ---------------------------------------- | -------------------------- | ------------------------------------------------ |
+| Voir l’adresse IP d’un domaine           | `host openai.com`          | Donne l’adresse IPv4 et IPv6                     |
+| Voir les serveurs mail (MX)              | `host -t mx gmail.com`     | Affiche les serveurs qui reçoivent les emails    |
+| Voir les serveurs de noms (NS)           | `host -t ns wikipedia.org` | Affiche les serveurs DNS responsables du domaine |
+| Vérifier un type précis d’enregistrement | `host -t A example.com`    | Pour ne voir que l’IP v4 (type A)                |
+
+> **Les principaux types d’enregistrements DNS :**
+>
+> | Type    | Que signifie-t-il ? | À quoi ça sert ?                                                   |
+> | ------- | ------------------- | ------------------------------------------------------------------ |
+> | `A`     | **Adresse IPv4**    | Associe un nom de domaine à une adresse IPv4 (ex: `93.184.216.34`) |
+> | `AAAA`  | **Adresse IPv6**    | Comme `A`, mais pour une adresse IPv6 (ex: `2606:2800:...`)        |
+> | `MX`    | **Mail Exchange**   | Indique les serveurs qui gèrent les **emails** pour le domaine     |
+> | `NS`    | **Name Server**     | Indique les **serveurs DNS** responsables du domaine               |
+> | `CNAME` | **Canonical Name**  | Redirige un nom de domaine vers un **autre nom de domaine**        |
+> | `TXT`   | **Texte libre**     | Sert à stocker des infos comme SPF, vérifs Google, sécurité, etc.  |
+
+---
+
+## `whois`
+
+Cette commande permet de consulter ***les informations d’enregistrement*** d’un nom de domaine ou d’une adresse IP.  
+C’est comme un casier d’identité du domaine : on peut savoir qui possède un site, quand il a été créé, quand il expire, etc.
+
 
 ## `grep` (global regular expression print)
 
