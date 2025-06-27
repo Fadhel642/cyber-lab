@@ -291,6 +291,14 @@ S'il y a des pertes, cela indique une connexion instable ou rompue
 | Vérifier la latence réseau    | Lire les valeurs `time=...`                 |
 | Vérifier si un serveur répond | S’il ne répond pas, aucun paquet ne revient |
 
+---
+
+## `nslookup` (Name Server Lookup)
+
+Cette commande permet d’interroger le DNS pour obtenir des informations sur un nom de domaine ou une adresse IP.
+Très utile pour vérifier la résolution DNS d’un domaine.
+
+> **DNS** (Domain Name System) : C’est un service d’annuaire d’Internet, il fait la traduction entre un ***nom de domaine*** et une ***adresse IP***.
 
 ---
 
