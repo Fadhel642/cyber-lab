@@ -8,6 +8,9 @@
 ---
 
 ## 📑 Sommaire :
+### 🔹Éditeurs de texte
+
+- [nano](#nano)
 
 ### 🔹Manipulation de fichiers
 - [ls](#ls-list)  
@@ -67,6 +70,23 @@
 - watch
   
 --- 
+
+## `nano`
+
+`nano` est un éditeur de texte qui fonctionne directement dans le terminal.
+Il permet de créer, lire ou modifier des fichiers texte (comme des scripts, du code, ou des fichiers de config).
+
+ ****Commandes utiles dans nano :****
+
+| Action                     | Raccourci clavier |
+| -------------------------- | ----------------- |
+| Enregistrer                | `Ctrl + O`        |
+| Quitter                    | `Ctrl + X`        |
+| Couper une ligne           | `Ctrl + K`        |
+| Coller une ligne           | `Ctrl + U`        |
+| Rechercher dans le fichier | `Ctrl + W`        |
+
+---
 
 ## `ls` (list)
 Cette commande permet de lister les fichiers et dossiers dans le répertoire courant  
