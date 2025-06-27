@@ -12,6 +12,10 @@
 
 - [nano](#nano)
 
+### 🔹Affichage & Entrées
+
+- [echo](#echo)
+
 ### 🔹Manipulation de fichiers
 - [ls](#ls-list)  
 - [cd](#cd-change-directory)
@@ -70,6 +74,22 @@
 - watch
   
 --- 
+
+## `echo`
+
+Cette commande sert à afficher du texte à l’écran, ou à montrer la valeur d’une variable.
+
+****Utilisations :****
+
+| Objectif                          | Commande                      | Résultat / Description             |
+| --------------------------------- | ----------------------------- | ---------------------------------- |
+| Afficher un texte simple          | `echo Hello`                  | Affiche "Hello"                    |
+| Afficher la valeur d’une variable | `echo $HOME`                  | Affiche ton dossier utilisateur    |
+| Créer un fichier avec du texte    | `echo "Hello" > fichier.txt`  | Écrit "Hello" dans `fichier.txt`   |
+| Ajouter du texte à un fichier     | `echo "Suite" >> fichier.txt` | Ajoute "Suite" à la fin du fichier |
+| Afficher une ligne vide           | `echo`                        | Affiche une ligne vide             |
+
+---
 
 ## `nano`
 
