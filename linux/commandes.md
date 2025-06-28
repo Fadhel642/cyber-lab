@@ -43,7 +43,7 @@
 
 - [whoami](#whoami)
 - [uptime](#uptime)
-- [](#
+- [hostname](#hostname)
 - [](#
 
 ### 🔹Réseau
@@ -303,6 +303,13 @@ Cette commande affiche le nom d’utilisateur actuellement connecté au système
 ## `uptime`
 
 Cette commande affiche depuis combien de temps ton système est allumé, ainsi que le nombre d’utilisateurs connectés et la charge système.
+
+---
+
+## `hostname`
+
+Cette commande affiche le nom de l’ordinateur (appelé "hôte") sur le réseau.
+> C’est ce nom qui identifie ta machine localement ou dans un réseau.
 
 ---
 
