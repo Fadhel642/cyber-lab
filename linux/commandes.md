@@ -41,8 +41,8 @@
 
 ### 🔹Surveillance système et processus
 
-- [](#
-- [](#
+- [whoami](#whoami)
+- [uptime](#uptime)
 - [](#
 - [](#
 
@@ -283,6 +283,26 @@ Par défaut, elle affiche les 10 dernières lignes.
 | `-n N` | Affiche les **N dernières lignes** |
 | `-f`   | Suit le fichier en **temps réel**  |
 | `-q`   | Masque le nom du fichier           |
+
+---
+
+## `whoami`
+
+Cette commande affiche le nom d’utilisateur actuellement connecté au système.
+
+****Autre commandes similaires :****
+
+| Commande     | Description                             |
+| ------------ | --------------------------------------- |
+| `who`        | Affiche tous les utilisateurs connectés |
+| `id`         | Donne l’ID utilisateur + groupes        |
+| `echo $USER` | Affiche l’utilisateur courant (bash)    |
+
+---
+
+## `uptime`
+
+Cette commande affiche depuis combien de temps ton système est allumé, ainsi que le nombre d’utilisateurs connectés et la charge système.
 
 ---
 
