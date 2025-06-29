@@ -27,6 +27,7 @@
 - [touch](#touch-update-timestamp--create-empty-file)
 
 ### 🔹Lecture et traitement de fichiers
+- [awk](#awk-Aho-Weinberger-Kernighan)
 - [cat](#cat-concatenate)
 - [head](#head-show-beginning)
 - [tail](#tail-show-end)
@@ -246,6 +247,34 @@ Cette commande permet de supprimer des fichiers ou des dossiers depuis le termin
 ## `touch` (update timestamp / create empty file)
 
 Cette commande sert à créer un **fichier vide** ou à **mettre à jour la date** de modification d’un fichier existant.
+
+---
+
+## `awk`(Aho, Weinberger, Kernighan) 
+
+Cette commande sert à analyser, filtrer et formater des données ligne par ligne, souvent utilisées avec des fichiers textes ou des sorties de commande.
+> C’est parfait pour traiter des données en colonnes, comme des fichiers .csv, .log, etc.
+
+**Syntaxe de base :**
+```
+awk 'pattern {action}' fichier
+```
+**Exemple simple : afficher une colonne**
+```
+awk '{print $1}' fichier.txt
+```
+**Explication :**
+`$1` = première colonne
+`$2` = deuxième colonne
+`$0` = toute la ligne
+
+****Autres utilisations utiles****
+
+| Action                      | Commande                             |
+| --------------------------- | ------------------------------------ |
+| Afficher 1re et 2e colonne  | `awk '{print $1, $2}' fichier.txt`   |
+| Compter le nombre de lignes | `awk 'END {print NR}' fichier.txt`   |
+| Ajouter du texte            | `awk '{print ">>", $1}' fichier.txt` |
 
 ---
 
