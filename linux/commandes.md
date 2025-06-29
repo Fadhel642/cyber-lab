@@ -27,7 +27,7 @@
 - [touch](#touch-update-timestamp--create-empty-file)
 
 ### 🔹Lecture et traitement de fichiers
-- [awk](#awk-Aho-,-Weinberger-,-Kernighan)
+- [awk](#awk-Aho-Weinberger-Kernighan)
 - [cat](#cat-concatenate)
 - [head](#head-show-beginning)
 - [tail](#tail-show-end)
@@ -250,7 +250,7 @@ Cette commande sert à créer un **fichier vide** ou à **mettre à jour la date
 
 ---
 
-## `awk`(Aho, Weinberger, Kernighan) 
+## `awk`(Aho Weinberger Kernighan) 
 
 Cette commande sert à analyser, filtrer et formater des données ligne par ligne, souvent utilisées avec des fichiers textes ou des sorties de commande.
 > C’est parfait pour traiter des données en colonnes, comme des fichiers .csv, .log, etc.
