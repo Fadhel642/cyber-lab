@@ -46,6 +46,7 @@
 - [uptime](#uptime)
 - [hostname](#hostname)
 - [free](#free)
+- [date](#date)
 
 ### 🔹Réseau
 
@@ -371,6 +372,31 @@ free -h
 Le `-h` affiche la taille en format lisible : **Mo**, **Go**, etc.  
 Exemple :
 ![image](https://github.com/user-attachments/assets/592ab5fd-0ff4-4626-9b8b-93765b9d42c7)
+
+---
+
+Cette commande affiche la date et l’heure système actuelles.  
+Elle peut aussi servir à formater la date selon tes besoins, ou à l’utiliser dans des scripts.
+
+**exemples**
+```
+date "+%H:%M:%S"    # Heure uniquement
+date "+%A %d %B %Y" # Affiche le jour, la date complète
+```
+
+**Quelques codes de format utiles :**
+
+| Code | Signification            |
+| ---- | ------------------------ |
+| `%d` | Jour (numérique)         |
+| `%m` | Mois (numérique)         |
+| `%Y` | Année (4 chiffres)       |
+| `%H` | Heure (24h)              |
+| `%M` | Minute                   |
+| `%S` | Seconde                  |
+| `%A` | Nom du jour (ex. samedi) |
+| `%B` | Nom du mois (ex. juin)   |
+
 
 ---
 
