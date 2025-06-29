@@ -375,6 +375,8 @@ Exemple :
 
 ---
 
+## `date`
+
 Cette commande affiche la date et l’heure système actuelles.  
 Elle peut aussi servir à formater la date selon tes besoins, ou à l’utiliser dans des scripts.
 
