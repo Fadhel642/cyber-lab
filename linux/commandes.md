@@ -45,7 +45,7 @@
 - [whoami](#whoami)
 - [uptime](#uptime)
 - [hostname](#hostname)
-- [](#
+- [free](#free)
 
 ### 🔹Réseau
 
@@ -339,6 +339,38 @@ Cette commande affiche depuis combien de temps ton système est allumé, ainsi q
 
 Cette commande affiche le nom de l’ordinateur (appelé "hôte") sur le réseau.
 > C’est ce nom qui identifie ta machine localement ou dans un réseau.
+
+---
+
+## `free`
+
+Cette commande affiche un résumé de l’utilisation de la mémoire vive (RAM) et de la swap de ton système.
+
+**Exemple**
+```
+free
+```
+Résultat
+
+![image](https://github.com/user-attachments/assets/f9cbe066-081c-4a12-ac4c-410e6c6ddc25)
+
+**Explication des colonnes :**
+| Colonne      | Signification                                             |
+| ------------ | --------------------------------------------------------- |
+| `total`      | Quantité totale de mémoire                                |
+| `used`       | Mémoire utilisée actuellement                             |
+| `free`       | Mémoire complètement libre (pas utilisée du tout)         |
+| `shared`     | Mémoire partagée entre processus                          |
+| `buff/cache` | Mémoire utilisée pour les buffers et caches               |
+| `available`  | Mémoire disponible réellement pour de nouveaux programmes |
+
+**Affichage plus lisible :**
+```
+free -h
+```
+Le `-h` affiche la taille en format lisible : **Mo**, **Go**, etc.  
+Exemple :
+![image](https://github.com/user-attachments/assets/592ab5fd-0ff4-4626-9b8b-93765b9d42c7)
 
 ---
 
