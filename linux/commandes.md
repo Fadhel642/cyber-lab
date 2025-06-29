@@ -27,7 +27,7 @@
 - [touch](#touch-update-timestamp--create-empty-file)
 
 ### 🔹Lecture et traitement de fichiers
-- [awk](#awk-Aho-Weinberger-Kernighan)
+- [awk](#awk-Aho-,-Weinberger-,-Kernighan)
 - [cat](#cat-concatenate)
 - [head](#head-show-beginning)
 - [tail](#tail-show-end)
