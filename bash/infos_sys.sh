@@ -2,6 +2,8 @@
 # Script : infos_sys.sh
 # Objectif : afficher les informations système de base
 
+exec > rapport_sys.txt
+
 echo -e "\e[34m=== Infos système ===\e[0m"
 echo "Utilisateur : $(whoami)"
 echo "Machine : $(hostname)"
