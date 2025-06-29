@@ -250,7 +250,7 @@ Cette commande sert à créer un **fichier vide** ou à **mettre à jour la date
 
 ---
 
-## `awk`(Aho Weinberger Kernighan) 
+## `awk` (Aho Weinberger Kernighan) 
 
 Cette commande sert à analyser, filtrer et formater des données ligne par ligne, souvent utilisées avec des fichiers textes ou des sorties de commande.
 > C’est parfait pour traiter des données en colonnes, comme des fichiers .csv, .log, etc.
