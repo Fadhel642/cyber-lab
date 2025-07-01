@@ -3,7 +3,7 @@
 
 > 🗒️ **Note perso** : Je sais qu’il existe plein de sites et docs avec toutes les commandes Linux, et que je pourrais juste aller chercher sur Google… mais j’ai choisi de faire ce document moi-même. Pourquoi ? Parce que ça m’aide à mieux comprendre, à m’en souvenir, et à me sentir plus à l’aise avec ces commandes.
 >   
-> Je suis encore en plein apprentissage, donc ce fichier n’est pas terminé. Je le complète petit à petit, à mon rythme. Et même si ce n’est pas parfait, ça me permet de progresser. Bref, ce doc, c’est un peu mon carnet de bord Linux
+> Je suis encore en plein apprentissage, donc ce fichier n’est pas terminé. Je le complète petit à petit, à mon rythme. Et même si ce n’est pas parfait, ça me permet de progresser.
 
 ---
 
@@ -57,6 +57,7 @@
 - [nslookup](#nslookup-Name-Server-Lookup)
 - [host](#host)
 - [whois](#whois)
+- [traceroute](#traceroute)
 
 ### 🔹Recherche et exploration
 
@@ -509,7 +510,19 @@ Elle est ***plus simple et rapide*** que `nslookup`.
 Cette commande permet de consulter ***les informations d’enregistrement*** d’un nom de domaine ou d’une adresse IP.  
 C’est comme un casier d’identité du domaine : on peut savoir qui possède un site, quand il a été créé, quand il expire, etc.
 
+---
 
+## `traceroute`
+
+Cette commande permet de voir le chemin réseau qu’empruntent les paquets pour atteindre une destination (comme un site web).  
+Elle montre chaque "saut" (routeur ou serveur) traversé entre ta machine et la cible.
+
+**Syntaxe**
+```
+traceroute adresse_ou_nom_de_domaine
+```
+
+---
 ## `grep` (global regular expression print)
 
 Cette commande permet de rechercher un texte spécifique dans un ou plusieurs fichiers, ou dans une sortie de commande.  
