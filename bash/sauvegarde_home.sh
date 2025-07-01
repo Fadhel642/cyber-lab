@@ -5,7 +5,7 @@
 
 mkdir -p ~/sauvegardes   # Créer le dossier de destination
 
-DATE=$(date +%F)                       # La date du jour au format AAAA-MM-JJ
+DATE=$(date +%F_%H-%M-%S)                # Date et heure au format AAAA-MM-JJ_HH-MM-SS
 FILENAME="home_backup_$DATE.tar.gz"    # Créer le nom du fichier de sauvegarde
 
 # Créer un archive compressé du dossier personnel, en excluant le dossier sauvegardes
