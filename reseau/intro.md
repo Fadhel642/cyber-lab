@@ -1,4 +1,4 @@
-# Introduction aux bases du réseau (niveau débutant)
+# Introduction aux bases du réseau 
 
 Ce document explique les bases du réseau de façon simple, pour comprendre comment les ordinateurs communiquent entre eux.
 
