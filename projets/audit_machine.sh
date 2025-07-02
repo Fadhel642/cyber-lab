@@ -18,3 +18,9 @@ echo "Version noyau   : $(uname -r)" >> $rapport
 echo -e "\n[Mémoire et disque]" >> $rapport
 free -h >> $rapport
 df -h >> $rapport
+
+# 4- Réseau 
+echo -e "\n[Réseau]" >> $rapport
+echo "Adresse IP      : $(hostname -I | awk '{print $1}')" >> $rapport
+echo -e "\nTest de ping vers google.com :" >> $rapport
+ping -c 2 google.com >> $rapport
