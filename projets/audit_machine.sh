@@ -31,3 +31,11 @@ netstat -tunlp >> $rapport
 
 # 6- Confirmation
 echo "Rapport d'audit sauvegardé dans $rapport"
+
+# 7- Créer une archive compressée
+DATE=$(date +%F_%H-%M)
+ARCHIVE="audit_${DATE}.tar.gz"
+tar -czf $ARCHIVE $rapport
+
+echo "Rapport compressé : $ARCHIVE"
+
