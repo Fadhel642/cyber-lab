@@ -24,3 +24,10 @@ echo -e "\n[Réseau]" >> $rapport
 echo "Adresse IP      : $(hostname -I | awk '{print $1}')" >> $rapport
 echo -e "\nTest de ping vers google.com :" >> $rapport
 ping -c 2 google.com >> $rapport
+
+# 5- Ports ouverts (netstat)
+echo -e "\n[Ports ouverts]" >> $rapport
+netstat -tunlp >> $rapport
+
+# 6- Confirmation
+echo "Rapport d'audit sauvegardé dans $rapport"
