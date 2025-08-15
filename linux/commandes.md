@@ -431,7 +431,7 @@ Elle est très utilisée pour télécharger des fichiers, tester des API, ou env
 ## `ping` (packet internet groper)
 
 Cette commande permet de tester la connexion entre ton ordinateur et une autre machine (souvent un serveur ou un site web).  
-Elle envoie des paquets **ICMP** (Internet Control Message Protocol) et mesure le temps de réponse.
+Elle envoie des paquets **ICMP** (**I**nternet **C**ontrol **M**essage **P**rotocol) et mesure le temps de réponse.
 
 **Exemple :**
 ```ping google.com```  
