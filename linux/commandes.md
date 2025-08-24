@@ -541,6 +541,8 @@ C'est similaire à la commande `ifconfig`. Elle est plus axée uniquement sur le
 Il est utilisé pour trouver les correspondances IP vers adresse MAC.
 
 ---
+## `route`
+Il récupère la table de routage. Cela indique essenteillement où tout le réseau est réellement dirigé.
 
 ## `grep` (global regular expression print)
 
