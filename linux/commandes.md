@@ -58,6 +58,8 @@
 - [host](#host)
 - [whois](#whois)
 - [traceroute](#traceroute)
+- [ifconfig](#ifconfig)
+- 
 
 ### 🔹Recherche et exploration
 
