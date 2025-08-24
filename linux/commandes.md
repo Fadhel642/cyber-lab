@@ -544,6 +544,7 @@ Il est utilisé pour trouver les correspondances IP vers adresse MAC.
 ## `route`
 Il récupère la table de routage. Cela indique essenteillement où tout le réseau est réellement dirigé.
 
+---
 ## `grep` (global regular expression print)
 
 Cette commande permet de rechercher un texte spécifique dans un ou plusieurs fichiers, ou dans une sortie de commande.  
