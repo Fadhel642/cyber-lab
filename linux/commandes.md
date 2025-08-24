@@ -532,7 +532,7 @@ C'est similaire à la commande windows `ipconfig`. Elle affiche des détails
 ---
 ## `iwconfig`
 
-C'est similaire à la commande `ifconfig`. Elle est plus axée uniqument sur les interfaces réseau sans fil.
+C'est similaire à la commande `ifconfig`. Elle est plus axée uniquement sur les interfaces réseau sans fil.
 
 ---
 
