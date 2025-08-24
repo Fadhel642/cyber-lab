@@ -521,6 +521,11 @@ Elle montre chaque "saut" (routeur ou serveur) traversé entre ta machine et la 
 ```
 traceroute adresse_ou_nom_de_domaine
 ```
+---
+## `ifconfig`
+
+C'est similaire à la commande windows `ipconfig`. Elle affiche des détails
+- Réseau de base tels que les adresses IP, l'adresse de diffusion, l'adresse MAC, et bien plus encore.
 
 ---
 ## `grep` (global regular expression print)
