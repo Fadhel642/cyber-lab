@@ -530,6 +530,12 @@ C'est similaire à la commande windows `ipconfig`. Elle affiche des détails
 - Réseau de base tels que les adresses IP, l'adresse de diffusion, l'adresse MAC, et bien plus encore.
 
 ---
+## `iwconfig`
+
+C'est similaire à la commande `ifconfig`. Elle est plus axée uniqument sur les interfaces réseau sans fil.
+
+---
+
 ## `grep` (global regular expression print)
 
 Cette commande permet de rechercher un texte spécifique dans un ou plusieurs fichiers, ou dans une sortie de commande.  
