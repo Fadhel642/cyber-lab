@@ -537,7 +537,7 @@ C'est similaire à la commande `ifconfig`. Elle est plus axée uniquement sur le
 
 ---
 ## `arp` (Address Resolution Protocol)
-il est utilisé pour trouver les correspondances IP vers adresse MAC.
+Il est utilisé pour trouver les correspondances IP vers adresse MAC.
 
 ---
 
