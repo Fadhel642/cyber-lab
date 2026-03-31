@@ -79,6 +79,13 @@
 - [history](#history-command-history)
 - alias
 - watch
+
+### 🔹Symbole / Opérateur
+
+- [&](#&-Operator-&)
+- [&&]
+- [>]
+- [>>]
   
 --- 
 
@@ -599,5 +606,7 @@ Cette commande affiche la liste des commandes précédemment exécutées dans le
 | `!n`   | Exécute la commande numéro `n`     |
 | `!!`   | Réexécute **la dernière commande** |
 
+---
 
+## `&`(Operator "&")
 ...
