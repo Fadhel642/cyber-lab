@@ -82,7 +82,7 @@
 
 ### 🔹Symbole / Opérateur
 
-- [&](#&-Operator-&)
+- [&](#&-Operator-"-&-")
 - [&&]
 - [>]
 - [>>]
