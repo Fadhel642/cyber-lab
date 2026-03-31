@@ -609,4 +609,26 @@ Cette commande affiche la liste des commandes précédemment exécutées dans le
 ---
 
 ## `&` (Operator 1 : "&")
+
+Cet opérateur permet d'exécuter une commande en arrière-plan dans le terminal.
+
+---
+
+## `&&` (Operator 2 : "&&")
+
+Cet opérateur permet d’exécuter plusieurs commandes sur une seule ligne du terminal.
+> la commande suivante ne s’exécute que si la précédente réussit.
+
+---
+
+## `>` (Operator 3 : ">")
+Cet opérateur permet de rediriger la sortie d’une commande vers un fichier ou une autre destination.
+Par exemple, il peut enregistrer le résultat d’une commande dans un fichier au lieu de l’afficher dans le terminal.
+> Attention : si le fichier existe déjà, son contenu sera écrasé.
+
+---
+
+## `>>` (Operator 4 : ">>")
+Cet opérateur remplit la même fonction que l’opérateur `>`, mais ajoute la sortie à la fin du fichier au lieu de la remplacer.
+> Attention : contrairement à `>`, le contenu existant n’est pas écrasé.
 ...
