@@ -82,7 +82,7 @@
 
 ### 🔹Symbole / Opérateur
 
-- [&](#Operator)
+- [&](#Operator-&-)
 - [&&]
 - [>]
 - [>>]
@@ -608,5 +608,5 @@ Cette commande affiche la liste des commandes précédemment exécutées dans le
 
 ---
 
-## `&` (Operator)
+## `&` (Operator &)
 ...
